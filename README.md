@@ -29,19 +29,7 @@ This addon is used to take a normal openFrameworks project and split it into 2 o
 
 
 ### Credits
-- Based on Paul Bourke's paper, ["Edge blending using commodity projectors"](http://paulbourke.net/texture_colour/edgeblend/)
-- Quartz Shader implemenation by Matthias Oostrik ( http://www.oostrik.net )
-- Original openFrameworks addon adaptation by [James George](http://www.jamesgeorge.org)
-- in collaboration with [FlightPhase](http://www.flightphase.com) 
-- additions by [Marek Bereza](http://www.mazbox.com/)
-- This fork was created by [Jeff Crouse](http://www.jeffcrouse.info) specifically for the [Interactive openFrameworks workshop at Kitchen Table Coders](http://kitchentablecoders.com/2012/10/20/intermediate-of-a/).  It is simplified in a few minor ways.
-
-### Used in
-
-- Flightphase's [Infiniti MOI project](http://vimeo.com/14588336)
-- Hellicar and Lewis [Coke24 project](http://www.hellicarandlewis.com/2011/03/22/coke-24hr-music/)
-- Flightphase's [University of Dayton interactive wall](http://www.flightphase.com/main_wp/expanded-media/interactive-wall-at-ud)
-- Flightphase's ["Paik Times Five"](http://www.flightphase.com/main_wp/expanded-media/paik-times-five)
+- Based on ofxProjectorBlend(https://github.com/Flightphase/ofxProjectorBlend)
 
 
 ### Examples
