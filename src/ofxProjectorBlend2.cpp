@@ -383,11 +383,11 @@ void ofxProjectorBlend2::draw(float x, float y) {
 			int horIndex = i % horNumProjectors;
 			int verIndex = i / horNumProjectors;
 
-			//ÎÆÀíÆ«ÒÆ
+			//uv offset
 			offset.x = (singleChannelWidth - horPixelOverlap) * horIndex;
 			offset.y = (singleChannelHeight - verPixelOverlap) * verIndex;
 
-			//»æÖÆÆ«ÒÆ
+			//gldraw offset
 			glTranslatef(singleChannelWidth * horIndex, singleChannelHeight * verIndex, 0);
 
 			blendShader.setUniform2f("texCoordOffset", offset.x, offset.y);
@@ -414,7 +414,7 @@ void ofxProjectorBlend2::draw(float x, float y) {
 		fullTexture.draw(0, 0, displayWidth, displayHeight);
 	}
 
-	//Ïû³ý¾â³Ý
+	//Anti-aliasing
 	ofPushStyle();
 	ofNoFill();
 	ofSetColor(0, 0, 0);
